@@ -92,12 +92,61 @@ CSS Variables
 Base CSS
 --------------------------------------------------------------- */
 
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
 #container {
     font-size: 18px;
     line-height: 1.6;
-    background-color: #ecf0f1;
 }
 
+nav {
+    background-color: black;
+    padding: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--CloudWhite);
+}
+
+.the-divisions {
+    display:flex;
+    padding: 2%;
+}
+
+#division-01, #division-06 {
+
+}
+#division-02, #division-04 {
+
+}
+#division-03, #division-05 {
+
+}
+
+#division-02 img {
+    width: 100px;
+}
+
+#footer {
+    padding: 2%;
+    background-color: var(--MidnightBlue);
+}
+
+#footer a {
+    color: var(--CloudWhite);
+    text-decoration: none;
+}
 
 /* ---------------------------------------------------------------
 Media Queries
