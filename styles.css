@@ -132,8 +132,8 @@ nav a {
     justify-content: center;
 }
 
-#division-01, #division-06 {
-
+#division-01, #division-05 {
+    text-align: center;
 }
 #division-02, #division-04 {
 
@@ -144,8 +144,10 @@ nav a {
 
 #division-02 .division-text {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #division-02 img {
