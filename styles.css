@@ -92,6 +92,11 @@ CSS Variables
 Base CSS
 --------------------------------------------------------------- */
 
+
+h1, h2, h3 {
+    font-family: 'Merriweather', sans-serif;
+}
+
 h1 {
     font-size: 1.6em;
 }
@@ -105,12 +110,13 @@ h3 {
 }
 
 #container {
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     line-height: 1.6;
 }
 
 nav {
-    background-color: black;
+    background-color: var(--Black);
     padding: 2%;
 }
 
@@ -122,6 +128,8 @@ nav a {
 .the-divisions {
     display:flex;
     padding: 2%;
+    align-items: center;
+    justify-content: center;
 }
 
 #division-01, #division-06 {
@@ -135,7 +143,9 @@ nav a {
 }
 
 #division-02 .division-text {
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #division-02 img {
@@ -144,7 +154,7 @@ nav a {
 
 #footer {
     padding: 2%;
-    background-color: var(--MidnightBlue);
+    background-color: var(--Black);
 }
 
 #footer a {
