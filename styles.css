@@ -134,6 +134,10 @@ nav a {
 
 }
 
+#division-02 .division-text {
+    align-items: center;
+}
+
 #division-02 img {
     width: 100px;
 }
