@@ -116,7 +116,11 @@ h3 {
 }
 
 nav {
+    display: flex;
     background-color: var(--Black);
+    color: var(--CloudWhite);
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 2%;
 }
 
@@ -150,11 +154,19 @@ nav a {
     text-align: center;
 }
 
+.division-02-textblocks {
+    padding: 30px 20px;
+}
+
 #division-02 img {
     width: 100px;
 }
 
 #footer {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--CloudWhite);
+    justify-content: space-between;
     padding: 2%;
     background-color: var(--Black);
 }
