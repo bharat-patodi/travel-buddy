@@ -181,7 +181,7 @@ input[type="email"] {
 Specific CSS
 --------------------------------------------------------------- */
 
-.the-divisions {
+.all-product-detail-sections {
     display:flex;
     flex-wrap: wrap;
     padding: 2%;
@@ -191,43 +191,6 @@ Specific CSS
     text-align: center;
 }
 
-.the-divisions img {
-    min-width: 200px;
-    margin: 10px 0px;
-    max-width: 800px;
-}
-
-#division-01>div, #division-03>div {
-    order: 2;
-}
-
-#division-01>img, #division-03>img {
-    order: 1;
-}
-
-#division-02, #division-04 {
-
-}
-#division-03, #division-05 {
-
-}
-
-#division-02 .division-text {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.division-02-textblocks {
-    padding: 30px 20px;
-}
-
-#division-02 img {
-    min-width: 100px;
-    width: 100px;
-}
 
 /* ---------------------------------------------------------------
 Media Queries
@@ -235,10 +198,6 @@ Media Queries
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .user-info {
-        width: 500px;
-        justify-content: space-around;
-    }
 }
 
 /* Medium devices (desktops, 992px and up) */
