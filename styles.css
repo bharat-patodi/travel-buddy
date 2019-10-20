@@ -119,6 +119,10 @@ a:hover {
     color: var(--Green);
 }
 
+a:focus {
+    border: none;
+}
+
 #container {
     background-color: var(--CloudWhite);
     font-family: 'Lato', sans-serif;
