@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Swati Choudhary's startup idea for creating secure travel for women",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bharat-patodi/travel-buddy.git"
@@ -29,9 +26,30 @@
     "gulp-autoprefixer": "^7.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-eslint": "^6.0.0",
-    "gulp-minify": "^3.1.0"
+    "gulp-minify": "^3.1.0",
+    "jest": "^25.1.0"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "save-dev": "0.0.1-security"
+  },
+
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+
+  "jest": {
+    "collectCoverageFrom": [
+      "*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 10,
+        "branches": 10,
+        "functions": 10,
+        "lines": 15
+      }
+    }
   }
 }
